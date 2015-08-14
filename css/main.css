@@ -1,0 +1,174 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+
+#container{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 300px;
+}
+
+#container #header{
+  height: 90px;
+  background-color: #ccc;
+}
+
+#container #header .logo{
+  width: 100px;
+  height: 90px;
+  background-color: #aaa;
+  float: left;
+  color: #af5638;
+}
+
+#container #header .page-title{
+ width: 200px;
+ float:left;
+ padding-left: 20px;
+ padding-top: 30px;
+ font-weight: bold;
+}
+
+#container #header .menu-container{
+  float: right;
+  margin-top: 53px;
+}
+
+.clear{
+  clear: both;
+}
+
+.menu{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: #000;
+   background-color: #999;
+   width: 100px;
+   text-align: center;
+   cursor: pointer;
+   float: left;
+   margin-right: 1px;
+   font-size: 13px;
+}
+
+.menu:hover{
+   background-color: #bbb;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #000;
+ }
+
+#body{
+  min-height: 200px;
+  background-color: #ddd;
+}
+
+.home-container .banner{
+ float: left;
+ width: 597px;
+}
+
+.home-container .notice{
+ float: left;
+ width: 280px;
+ padding: 10px;
+ text-align: center;
+}
+
+.user-info{
+  padding: 20px;
+  font-family: verdana;
+}
+
+a.btn{
+ background-color: #0896D6;
+ padding: 5px;
+ color: white;
+ text-decoration: none;
+}
+a.btn:hover{
+ color: red;
+}
+
+#footer{
+  padding: 20px;
+  background-color: #555;
+  color: #ccc;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title{
+  padding-top: 15px;
+  padding-left: 115px;
+  font-weight: bold;
+}
+
+.form{
+  width: 520px;
+  padding: 10px;
+  margin-left: 100px;
+  font-size: 12px;
+}
+
+.form .field{
+ margin: 5px;
+ float: left;
+ height: 40px;
+}
+
+.form .field label{
+ color: #333;
+}
+
+.form .field input{
+ font-size: 12px;
+ padding: 2px;
+ width: 250px;
+}
+
+.form .field input:focus{
+ border:1px solid #AF5638;
+ height: 23px;
+}
+
+.form .field input[type=submit]{
+ width: 120px;
+ color: green;
+ font-size: 13px;
+ background-color: #99868C;
+ border-radius: 2px;
+ cursor: pointer;
+}
+
+.form .field input[type=submit]:hover{
+ background-color: #B69FA6;
+}
+
+.form .errors{
+ background-color: #FFFEE2;
+ border: 1px solid #FFD673;
+ color: #898905;
+ text-shadow: 0 1px 0 #F1F078;
+ border-radius: 6px;
+ box-shadow: 0 2px 4px #CCCCCC;
+ font-size: 12px;
+ padding: 10px;
+ font-weight: bold;
+ display: none;
+}
+
+.form .errors ul li{
+ font-weight: normal;
+}
+
+
+
+
+
